@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Create Your First Quest
 
 This guide provides instructions for setting up the **Quest** system. In the sample app, the trigger area is outlined in blue. Once the avatar enters into the blue area, the **Quest** system starts. The 1st task informs the avatar to fly. Once the avatar flies and reaches the trigger area in the air, the 1st task is complete and the **Quest** system updates. The 2nd task directs the avatar to fly through the rings. Each ring the avatar flies through adds progress to the **Quest** system. Once the avatar flies through all the rings, the 2nd task is complete and, which completes the quest...
