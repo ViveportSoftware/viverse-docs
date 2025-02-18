@@ -4,7 +4,7 @@ description: >-
   projects by controlling when assets are rendered.
 ---
 
-# Asset Rendering
+# Asset Management
 
 ***
 
@@ -38,7 +38,7 @@ D. Click the **Edit Viverse Extension** button.
 {% endstep %}
 
 {% step %}
-### Add the Entity EntityAssetUnload action
+### Add the EntityAssetUnload action
 
 A. In the VIVERSE extension, select the **TriggerAndAction** plugin for the **Select plugins** dropdown.
 

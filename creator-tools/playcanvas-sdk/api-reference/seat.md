@@ -1,57 +1,89 @@
 ---
 description: >-
   This document provides a guide that can be used to add a seat to objects in
-  VIVERSE project. Allowing avatar to be sitting on the object.
+  VIVERSE project. This allows the avatar to sit down.
 ---
 
 # Seat
 
 ***
 
-This guide provides instructions for setting up the **Seat**.
+## Seat
+
+**Add functionality to allow avatar to sit down**
+
+| <img src="../../.gitbook/assets/image (520).png" alt="" data-size="original">                                               | <img src="../../.gitbook/assets/image (521).png" alt="" data-size="original">                                             |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| When the avatar enters the **SeatHintFarAwayTriggerSphere**, the **SeatHintFarAway** icon (white dot) shows above the seat. | When the avatar enters the **SeatHintTriggerSphere**, the **SeatHint** button (sitting person icon) shows above the seat. |
+| <img src="../../.gitbook/assets/image (530).png" alt="" data-size="original">                                               |                                                                                                                           |
+| When the avatar clicks on the **SeatHint** button, the avatar sits down.                                                    |                                                                                                                           |
 
 {% stepper %}
 {% step %}
-### Setup seating entity&#x20;
+### Add the chair&#x20;
 
-A. Add a new entity to the scene.
+A. In this example, the chairs and table have been created in the scene under a single entity.
 
-B. adjust the position to put it over the object you wish to have seating function.
+B. Click the **Edit Viverse Extension** button.
 
-<figure><img src="../../.gitbook/assets/截圖 2025-02-10 下午3.47.35 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (523).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Setup seating function in extension
+### Add the Seat module
 
-A. Click the "**EDIT VIVERSE EXTENSION**" button to add the VIVERSE functionality.
+A. In the VIVERSE extension, select the **Seat** plugin for the **Select plugins** dropdown.
 
-B. Click the "**Select plugins"** text field and select **TriggerAndAction** in the dropdown menu.
+B. Select the **Seat** module and add it.
 
-C. Adjust number of seats. visual hint of the seat and sitting posture.
+C. Add a value to the **number of seats** field.
 
-<figure><img src="../../.gitbook/assets/截圖 2025-02-10 下午3.47.46 (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (524).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Adjust the sitting boundary
 
-A. Select your seat entity.
+A. The **Seat** is automatically generated.
 
-B. Adjust the radius number of the entity's cylinder.
+B. Adjust the **Radius** on the **Collision** component to modify the sitting boundary.
 
-<figure><img src="../../.gitbook/assets/截圖 2025-02-11 下午12.44.41.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (525).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Adjust the visual hint trigger boundary
+### View the SeatHintFarAway icon
 
-A. Select the "SeatHintFarAwayTriggerSphere" in your seat entity.
+A. The **SeatHintFarAway** icon is a white dot that is automatically generated and hovers above each seat.
 
-B. Adjust the radius number of the entity's cylinder.
+<figure><img src="../../.gitbook/assets/image (526).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
 
-<figure><img src="../../.gitbook/assets/截圖 2025-02-11 下午12.42.28.png" alt="" width="375"><figcaption></figcaption></figure>
+{% step %}
+### Adjust the boundary for the SeatHintFarAway icon
 
+A. The **SeatHintFarAwayTriggerSphere** is automatically generated.
 
+B. Adjust the **Radius** on the **Collision** component to modify the distance away before the **SeatHintFarAway** icon displays.
+
+<figure><img src="../../.gitbook/assets/image (527).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### View the SeatHint button
+
+A. The **SeatHint** button has an icon of a sitting person. The button is automatically generated and hovers above each seat. When clicked, the avatar will sit.
+
+<figure><img src="../../.gitbook/assets/image (528).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Adjust the boundary for the SeatHint button
+
+A. The **SeatHintTriggerSphere** is automatically generated.
+
+B. Adjust the **Radius** on the **Collision** component to modify the distance away before the **SeatHint** icon displays.
+
+<figure><img src="../../.gitbook/assets/image (529).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
