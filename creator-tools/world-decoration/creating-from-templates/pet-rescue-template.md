@@ -86,7 +86,7 @@ B. **GroupA**, **GroupB**, **GroupC** and **GroupD** have been created. Cats are
 
 ## Setup Cat Hiding Positions
 
-The cat hiding positions are already added to the template project, but hiding positions can be added or removed as needed. The positions can also be
+The cat hiding positions are already added to the template project, but hiding positions can be added or removed as needed. Moving and rotating the cat hiding positions is recommended as opposed to moving and rotating the cat models.
 
 {% stepper %}
 {% step %}
@@ -136,7 +136,7 @@ A. Select all the cats in the groups and **disable** them so that they are disab
 
 ## Setup Catbox
 
-The Catbox is already added to the template project,
+The Catbox is already added to the template project, but needs to be configured for a desired Position, Rotation and Scale.
 
 {% stepper %}
 {% step %}
@@ -160,23 +160,23 @@ A. Create a new entity for each cat under the **CatBox** entity. In the sample, 
 {% endstep %}
 
 {% step %}
-### Add the cat models to the cat collect positions
-
-A. Copy each cat model from the **Cats** entity and paste it under it's respective cat collect position.
-
-B. Update the **Scale** of each cat model to **(1, 1, 1)**.
-
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
 ### Configure cat collect positions
 
 A. Add the **cat\_collect** tag to each cat collect position.
 
-B. Update the Position, Rotation and Scale of the cat collect positions to position cats in the appropriate locations.
+B. Update the **Position, Rotation** and **Scale** of the cat collect positions to place the cats in the appropriate locations.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (532).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the cat models to the cat collect positions
+
+A. Add the cat models and paste them under their respective cat collect positions.
+
+B. Update the **Scale** of each cat model to **(.01,.0 1, .01)**.
+
+<figure><img src="../../.gitbook/assets/image (533).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -186,6 +186,6 @@ A. Select all the cat collect positions under the **CatBox** entity.
 
 B. Disable all the cat collect positions so that the cats are hidden.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (531).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
