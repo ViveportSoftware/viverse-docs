@@ -12,6 +12,10 @@ description: >-
 
 **Create A Quest System**
 
+{% hint style="info" %}
+Currently, the Quest system is unavailable for testing in Preview mode and can only be seen after clicking the Create World button in Preview mode.
+{% endhint %}
+
 This guide provides instructions for setting up the Quest system. In the sample app, the trigger area is outlined in blue. Once the avatar enters into the trigger area, the Quest system starts. The first task requires the user to click on the red box. Once the user clicks on the red box, the first task is completed and the Quest system updates. The second task requires the user to click on multiple green boxes. Each green box that is clicked adds progress to completing the Quest task. Once all of the green boxes have been clicked, the task is completed and the Quest is completed. If the user clicks on a blue box during the quest, the quest system resets and needs to be triggered again in order to restart the quest.
 
 
