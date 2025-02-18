@@ -29,7 +29,7 @@
     * [Entity Physics](playcanvas-sdk/api-reference/trigger-and-action/entity-physics.md)
     * [Avatar Teleport & Checkpoint](playcanvas-sdk/api-reference/trigger-and-action/avatar-teleport-and-checkpoint.md)
     * [Animation & Sound](playcanvas-sdk/api-reference/trigger-and-action/animation-and-sound.md)
-    * [Asset Rendering](playcanvas-sdk/api-reference/trigger-and-action/asset-rendering.md)
+    * [Asset Management](playcanvas-sdk/api-reference/trigger-and-action/asset-rendering.md)
   * [Media](playcanvas-sdk/api-reference/media/README.md)
     * [Polygon Streaming](playcanvas-sdk/api-reference/media/polygon-streaming.md)
     * [Images](playcanvas-sdk/api-reference/media/images.md)
