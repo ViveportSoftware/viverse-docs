@@ -16,13 +16,11 @@ This guide provides instructions for setting up the Quest system. In the sample 
 
 
 
-|                                                                               |                                                                                                |                                                                                                           |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| <img src="../../.gitbook/assets/image (500).png" alt="" data-size="original"> | <img src="../../.gitbook/assets/image (501).png" alt="" data-size="original">                  | <img src="../../.gitbook/assets/image (502).png" alt="" data-size="original">                             |
-| The avatar enters the trigger area and the Quest system dialog appears.       | With the Quest system started, the user clicks on the red box and the first task is completed. | When the user clicks each green box, progress is added to the task and all green boxes have been clicked. |
-|                                                                               |                                                                                                |                                                                                                           |
-
-
+| <img src="../../.gitbook/assets/image (500).png" alt="" data-size="original">                                    | <img src="../../.gitbook/assets/image (501).png" alt="" data-size="original">                                              | <img src="../../.gitbook/assets/image (502).png" alt="" data-size="original"> |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| The avatar enters the trigger area and the Quest system dialog appears.                                          | With the Quest system started, the user clicks on the red box and the first task is completed.                             | When the user clicks each green box, progress is added to the second task.    |
+| <img src="../../.gitbook/assets/image (503).png" alt="" data-size="original">                                    | <img src="../../.gitbook/assets/image (504).png" alt="" data-size="original">                                              |                                                                               |
+| Once the user clicks on the final green box, the second task is complete and the Quest system dialog disappears. | If the user clicks on a blue box before both tasks are completed, the Quest system resets and needs to be triggered again. |                                                                               |
 
 {% stepper %}
 {% step %}
