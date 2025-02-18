@@ -11,7 +11,7 @@ hidden: true
 
 We created a PlayCanvas sample project that contains examples of how to utilize the PlayCanvas Extension. Download the project and import it into a PlayCanvas account. Publish the project to VIVERSE and enter Preview mode to test out the functionality.
 
-<table><thead><tr><th width="220">Project</th><th>Details</th></tr></thead><tbody><tr><td></td><td><p>Sample Project Version: <strong>1.2</strong>  </p><p>PlayCanvas Extension Version: <strong>3.44.1</strong></p></td></tr></tbody></table>
+<table><thead><tr><th width="270">Project</th><th>Details</th></tr></thead><tbody><tr><td><a href="https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/VIVERSE_PlayCanvas_Sample_1.2_2025_2_18-20_30_18%201.zip">https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/VIVERSE_PlayCanvas_Sample_1.2_2025_2_18-20_30_18%201.zip</a></td><td><p>Sample Project Version: <strong>1.2</strong>  </p><p>PlayCanvas Extension Version: <strong>3.44.1</strong></p></td></tr></tbody></table>
 
 This project is separated into different stations. Each station has **Tags** added to help identify the VIVERSE functionality the station is demonstrating.
 
