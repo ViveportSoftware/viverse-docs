@@ -534,7 +534,7 @@ A. Add the **CountDown.mjs** script to the **CountDown** entity.
 
 ## Setup Scoreboard UI
 
-
+The scoreboard user interface is already added to the project and configured.&#x20;
 
 {% stepper %}
 {% step %}
@@ -655,5 +655,413 @@ G. Change the **Color** to **FAF5CD**.
 ### Disable the scoreboard entity
 
 <figure><img src="../../.gitbook/assets/image (556).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+## Setup GameOver UI
+
+
+
+{% stepper %}
+{% step %}
+### Add the game over texture to the project
+
+A. Drag the **congrats-bg.png** texture to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (557).png" alt="" width="319"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create a game over user interface
+
+A. Create a new **Image Element** entity under **2D Screen**.
+
+B. Change the **Width** to **240** and **Height** to **177**.
+
+C. Add the **congrats-bg.png** texture to the **Texture** slot.
+
+<figure><img src="../../.gitbook/assets/image (558).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add button container
+
+A. Create a **Group Element** under the **Congrats2D** entity and name it **Btns**.
+
+B. Change the **Y Position** to **-121.234.**
+
+C. Change to the **Preset** to **Top Anchor & Pivot**.
+
+D. Change the **Width** to **174** and **Height** **36**.
+
+<figure><img src="../../.gitbook/assets/image (559).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the button texture to the project
+
+A. Drag the **Button.png** to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (560).png" alt="" width="289"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the restart button
+
+A. Create a new **Button** under the **Btns** entity and name it **Restart**.
+
+B. Change **Preset** to **Top Left Anchor & Pivot**.
+
+C. Change the **Width** to **83** and **Height** to **36**.
+
+D. Add the **Button.png** texture to the **Texture** slot.
+
+<figure><img src="../../.gitbook/assets/image (561).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the restart button
+
+A. Create a new **Button** under the **Btns** entity and name it **Restart**.
+
+B. Change **Preset** to **Top Left Anchor & Pivot**.
+
+C. Change the **Width** to **83** and **Height** to **36**.
+
+D. Add the **Button.png** texture to the **Texture** slot.
+
+E. Add the **startBtn.mjs** script to the **Restart** button entity.
+
+<figure><img src="../../.gitbook/assets/image (562).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Update the restart button text
+
+A. Change the **Position** to **(0, 0, 0)**.
+
+B. Change the **Preset** to **Center Anchor & Pivot**.
+
+C. Update the **Text** field to **Restart**.
+
+D. Change **Max** **Font Size** to **10** and **Line Height** to **30**.
+
+E. Change to Color to **FFFFFF**.
+
+<figure><img src="../../.gitbook/assets/image (563).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the **Close-Btn.mjs** script to the project
+
+A. Drag the **Clsoe-Btn.mjs** script to the **Assets** window.
+
+B. Select the **Close-Btn.mjs** script and click the **Parse** button.
+
+<figure><img src="../../.gitbook/assets/image (564).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the close button
+
+A. Create a new **Button** under the **Btns** entity and name it **Close**.
+
+B. Change **Preset** to **Right Anchor & Pivot**.
+
+C. Change the **Width** to **83** and **Height** to **36**.
+
+D. Add the **Button.png** texture to the **Texture** slot.
+
+E. Add the **Close-Btn.mjs** script to the **Close** button entity.
+
+<figure><img src="../../.gitbook/assets/image (565).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Update the close button text
+
+A. Update the **Text** field to **Close**.
+
+B. Change **Max Font Size** to **10** and **Line Height** to **32**.
+
+C. Change **Color** to **FFFFFF**.
+
+<figure><img src="../../.gitbook/assets/image (566).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the timescore script to the project
+
+A. Drag the **time-score.mjs** scrip to the **Assets** window.
+
+B. Click the **Parse** button.
+
+<figure><img src="../../.gitbook/assets/image (567).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the time display text group
+
+A. Create a new **Group Element** under the game over entity and name it **TimeScore**.
+
+B. Change **Position** to **(0, -5.361, 0)**.
+
+C. Update **Height** to **20**.
+
+D. Add the **time-score.mjs** script.
+
+<figure><img src="../../.gitbook/assets/image (568).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add Roboto-Bold font to the project
+
+A. Drag the **Roboto-Bold.ttf** font to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (569).png" alt="" width="301"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the text for minutes
+
+A. Create a new **Text Element** under **TimeScore** and name it **Min**.
+
+B. Change the **Position** to **(-23, 0, 0)**.
+
+C. Add **Roboto-Bold.ttf** font to the **Font** slot.
+
+D. Update the **Text** to **00**.
+
+<figure><img src="../../.gitbook/assets/image (570).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the text for seconds
+
+A. Duplicate the **Min** entity under **TimeScore** and name it to **Sec**.
+
+B. Change the **Position** to **(23, 0, 0)**.
+
+<figure><img src="../../.gitbook/assets/image (571).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Disable the GameOverUI entity
+
+<figure><img src="../../.gitbook/assets/image (572).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+## Setup GameManager
+
+
+
+{% stepper %}
+{% step %}
+### Add the **GameManager** script to the project
+
+A. Drag the **game-manager.mjs** script to the **Assets** window.
+
+B. Select the **game-manager.mjs** script and click the **Parse** button.
+
+<figure><img src="../../.gitbook/assets/image (573).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the **GameManager** entity
+
+A. Create a new entity and name it **GameManager**
+
+B. Add the **game-manager.mjs** script.
+
+<figure><img src="../../.gitbook/assets/image (574).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+### Setup Quest system
+
+
+
+{% stepper %}
+{% step %}
+### Open Viverse Scene Settings
+
+A. Click on the **Vivese Scene Settings** button
+
+<figure><img src="../../.gitbook/assets/image (575).png" alt="" width="162"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create a quest
+
+A. Add a new **Quest** and name it **Pet Rescue**.
+
+B. For **Quest Description,** add the text:
+
+**It's lunchtime, but the cats are still hiding around...Quickly find them, click them, and bring them back to their cat tree hideout.**
+
+C. Add a new **Task** and for the description, add the text: **9 cats, how many can you find?**
+
+D. Change the **Task type** to **progressBar**.
+
+E. Update **Progress Steps** to **9**.
+
+<figure><img src="../../.gitbook/assets/image (576).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Starting the quest
+
+A. Select the **StartButton** and click **Edit Viverse Extension** button. Add the **NotificationCenterSubscribeEntityPicking** trigger.
+
+B. Select the **Quest** action type with the **selected quest** set to **Pet Rescue** and **quest response** set to **startQuest**.
+
+<figure><img src="../../.gitbook/assets/image (577).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add progress to the quest
+
+A. For each cat, add the **Quest** action under the **NotificationCenterSubscribeEntityPicking** trigger.
+
+B. Change **selected quest** to **Pet Rescue**, change **quest response** to **addTaskProgress** and then change **selected task** to: **9 cats, how many can you find?**
+
+<figure><img src="../../.gitbook/assets/image (578).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+### Setup animations
+
+
+
+{% stepper %}
+{% step %}
+### Create the animation state graph
+
+A. In the **Assets** window, right-click and create a new **Anim State Graph**.
+
+<figure><img src="../../.gitbook/assets/image (579).png" alt="" width="280"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Rename animation state
+
+A. Rename the animation state to **CatAnim**.
+
+<figure><img src="../../.gitbook/assets/image (580).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add animation to the cat
+
+A. Add an **Anim** component to the cat.
+
+B. Add the **Cat Anim State Graph** to the **State Graph** slot.
+
+C. Locate the animation file inside the cat fbx.
+
+D. Add the animation file to the **CatAnim** state slot.
+
+<figure><img src="../../.gitbook/assets/image (581).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+## Setup audio
+
+
+
+{% stepper %}
+{% step %}
+### Add the cat audio files to the project
+
+A. Drag the cat audio files to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (582).png" alt="" width="294"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the sound entity
+
+A. For each cat, create a new entity under it. Rename it to **cat1**, **cat2**, etc.
+
+B. Add the Sound component and change **Max Distance** to **50**.
+
+C. Rename the **Slot 1** to **cat1**, **cat2**, etc. Add the **cat1.wav**, **cat2.wave**, etc. to the **Asset** slot.
+
+<figure><img src="../../.gitbook/assets/image (583).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### To add cat sounds
+
+A. On each cat, locate the **NotificationCenterSubscribeEntityPicking** trigger.
+
+B. Add the **EntityPlaySound** action under the **NotificationCenterSubscribeEntityPicking** trigger. Change **sound name to play** to cat1, cat2, etc. Add the cat1 **Sound** entity to the **pick up specify execution entity**.
+
+<figure><img src="../../.gitbook/assets/image (584).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### To add background music
+
+A. Drag the **Funny20Puzzle20loop.mp3** to the **Assets** window.
+
+B. Create a new **Sound** entity and name it **Music**.
+
+C. Uncheck **Positional** and set **Volume** to **.4**.
+
+D. Add the **Funny20Puzzle20loop.mp3** to the **Asset** slot, place a check on **Auto** Play and **Loop**.
+
+<figure><img src="../../.gitbook/assets/image (585).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### To add celebration music for completing the quest
+
+A. Drag **Quest\_Complete.mp3** to the **Assets** window.
+
+B. Create a new **Sound** entity and name it **QuestComplete**.
+
+C. Uncheck **Positional** and set **Volume** to **.5**.
+
+D. Update the **Name** slot to **celebrate,** add the **Quest\_Complete.mp3** to the **Asset** slot and change Volume to **.8**.
+
+<figure><img src="../../.gitbook/assets/image (586).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add Viverse functionality for celebration music
+
+A. On the QuestComplete entity, add the **NotificationCenterSubscribe** trigger and **celebrate** to the **notification name to subscribe**.
+
+B. Add the EntityPlaySound action, add **celebrate** to **sound name to play** and add the **QuestComplete** entity to the **pick up specify execution** entity.
+
+<figure><img src="../../.gitbook/assets/image (587).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+## Setup particle effects
+
+
+
+{% stepper %}
+{% step %}
+### Add particles to the cats when clicked
+
+A. Firework is a PlayCanvas Template (prefab) that can be copied from one project to another.
+
+B. Add the **Firework** template to each cat.
+
+<figure><img src="../../.gitbook/assets/image (588).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
