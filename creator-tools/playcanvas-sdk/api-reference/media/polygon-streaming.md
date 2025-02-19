@@ -18,9 +18,9 @@ For Polygon Streaming using the PlayCanvas Extension, you must use the Polygon S
 
 
 
-| <img src="../../../.gitbook/assets/image (8) (1).png" alt="" data-size="original">   | <img src="../../../.gitbook/assets/image (9) (1).png" alt="" data-size="original"> |
-| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| The 3D models are visible in the PlayCanvas editor when utilizing Polygon Streaming. | The 3D model streaming into the environment with the avatar.                       |
+| <img src="../../../.gitbook/assets/image (8) (1) (1).png" alt="" data-size="original"> | <img src="../../../.gitbook/assets/image (9) (1) (1).png" alt="" data-size="original"> |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| The 3D models are visible in the PlayCanvas editor when utilizing Polygon Streaming.   | The 3D model streaming into the environment with the avatar.                           |
 
 
 
@@ -34,7 +34,7 @@ B. Change the size of the model using the **Scale**.
 
 C. Click the **Edit Viverse Extension** button.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

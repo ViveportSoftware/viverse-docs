@@ -84,7 +84,7 @@ A. In the **Assets** window, create a new folder called **Models**.
 
 B. Drag your 3D model into the **Assets** window.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="322"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="322"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -96,7 +96,7 @@ B. Drag the **Template** file to the Hierarchy. In the sample project, lights we
 
 C. Update **Position, Rotation** and **Scale** of the model.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -114,7 +114,7 @@ E. Add a **Rigidbody** component.
 
 F. Update the **Position, Rotation** and **Scale** in order to match up the collider with the model.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -134,7 +134,7 @@ C. Update the **Position** and **Rotation** so that the location is above the gr
 
 D. At this point, the game can be published to VIVERSE for testing, ensuring that the avatar can traverse the environment.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -150,7 +150,7 @@ A. A parent entity called Cats which holds the cats and hiding positions.
 
 B. **GroupA**, **GroupB**, **GroupC** and **GroupD** have been created. Cats are grouped based on poses. Groups can be added or removed.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -166,7 +166,7 @@ A. Each group has several hiding positions. In the sample, the positions under *
 
 B. Update the **Position** and **Rotation** for each hiding spot. Adding a cat model under the position can help with visually placing the position.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -180,7 +180,7 @@ The cat models are already added to the template project, but cat models can be 
 
 A. Cat models are located in the **Models/Cats** directory.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="310"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="310"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -192,7 +192,7 @@ B. Select the cat in the **Hierarchy**.
 
 C. Update the **Scale** for the cat model so the size is appropriate for the environment.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -200,7 +200,7 @@ C. Update the **Scale** for the cat model so the size is appropriate for the env
 
 A. Select all the cats in the groups and **disable** them so that they are disabled by default.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -266,7 +266,7 @@ B. Place the **Catbox** under the **Cats** object.
 
 C. Update the **Position, Rotation** and **Scale** of the **Catbox** to the appropriate parameters for the environment.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -274,7 +274,7 @@ C. Update the **Position, Rotation** and **Scale** of the **Catbox** to the appr
 
 A. Create a new entity for each cat under the **CatBox** entity. In the sample, the entities are **cat\_1\_collect, cat\_2\_collect**, etc.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="109"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="109"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -343,5 +343,123 @@ C. Add the number of groups to the **Array Size** box. In the sample, there are 
 A. Publish the project to **VIVERSE** to test the script. Click the **Reset** button to confirm the cats are being placed in the appropriate locations. Remove the checkmark placed on the **DebugMode** checkbox on the **RandomWaypointAssignment** script to prevent the dialog box from showing in-game.
 
 <figure><img src="../../.gitbook/assets/image (540).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+## Setup Instructions Board and Start Button
+
+
+
+{% stepper %}
+{% step %}
+### Add the GameInstructionsBoard to the project
+
+A. Drag the **GameInstructionsBoard.fbx** to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="300"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the **GameInstructionsBoard** to the scene
+
+A. Drag the **GameInstructionsBoard** Template to the **Hierarchy**.
+
+B. Select the **GameInstructionsBoard** in the **Hierarchy**.
+
+C. Update the **Position, Rotation** and **Scale** of the **GameInstructionsBoard** to fit appropriately in the scene.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the GameInstructionsBoard texture to the project
+
+A. Drag the **Board\_B\_board\_shader\_BaseColor.jpg** texture to the Assets window.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="317"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Update the GameInstructionsBoard material
+
+A. Select the **board\_shader** material inside the **GameInstructionsBoard.fbx**
+
+B. Add the **Board\_B\_board\_shader\_BaseColor.jpg** texture to the Emissive texture slot.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the ButtonGroup texture to the project
+
+A. Drag the **ButtonGroup.png** texture to the **Assets** window.
+
+B. Right-click on the **ButtonGroup.png** and select **Create Texture Atlas**.
+
+C. Select the **Texture Atlas** and click the **Sprite Editor** button.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Cutting the sprite sheet
+
+A. For the **Frame Count,** add **3** to the **Cols** box and **4** to the **Rows** box.
+
+B. Click the **Generate Frames** button.
+
+C. Delete frames 10 and 11.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Generate the sprites
+
+A. Rename each frame based on the button style.
+
+B. Select each frame and click **New Sprite From Selection** to generate each sprite.
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the **Start-Btn.mjs** script to the project
+
+A. Drag the **Start-Btn.mjs** script to the **Assets** window.
+
+B. Select the **Start-Btn.mjs** script and click the **Parse** button.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the start button
+
+A. Under the **GameInstructionsBoard** entity, create a new button called **StartButton.** Remove the Text entity that is created under the button.
+
+B. Update the Position, Rotation and Scale so the button fits appropriately on the board.
+
+C. On the **Button** component, change **Transition Mode** to **Sprite Change**.
+
+D. Add the 3 button sprites.
+
+E. Add a Collision component and resize it using **Half Extents**.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Continue creating the start button
+
+A. Update the **Width** and **Height** on the **Element** component
+
+B. Add the **start\_normal** sprite to the **Sprite** slot.
+
+C. Add the **start-btn.mjs** script.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
