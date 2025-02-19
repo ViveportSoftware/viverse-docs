@@ -46,7 +46,7 @@
 {% endstep %}
 
 {% step %}
-### Optional: Game over user interface is prebuilt.
+### Optional: GameOver user interface is prebuilt.
 {% endstep %}
 
 {% step %}
@@ -312,7 +312,7 @@ B. Disable all the cat collect positions so that the cats are hidden.
 
 ## Setup Random Waypoint Assignment
 
-The random waypoint assigment object is already added to the project and configured. It can be customized if cats or cat groups are added or removed.
+The random waypoint assignment object is already added to the project and configured. It can be customized if cats or cat groups are added or removed.
 
 {% stepper %}
 {% step %}
@@ -350,7 +350,7 @@ A. Publish the project to **VIVERSE** to test the script. Click the **Reset** bu
 
 ## Setup Instructions Board and Start Button
 
-
+The instructions board and start button object is already added to the project and configured.&#x20;
 
 {% stepper %}
 {% step %}
@@ -461,5 +461,199 @@ B. Add the **start\_normal** sprite to the **Sprite** slot.
 C. Add the **start-btn.mjs** script.
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+## Setup Countdown UI
+
+The countdown user interface is already added to the project and configured.&#x20;
+
+{% stepper %}
+{% step %}
+### Create a 2D Countdown
+
+A. Create a new **2D Screen** entity.
+
+B. The **Position** is arbitrary because it's 2D, but moving it's position so that it's visible in the editor is helpful.
+
+C. Set **Priority** to **1**.
+
+<figure><img src="../../.gitbook/assets/image (541).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the font for the countdown
+
+A. Drag the **SFProText-Bold.ttf** font to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (542).png" alt="" width="317"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Add the **CountDown.mjs** script to the project
+
+A. Drag the **CountDown.mjs** script to the **Assets** window.
+
+B. Select the **CountDown.mjs** script and click the **Parse** button.
+
+<figure><img src="../../.gitbook/assets/image (543).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Configure the countdown entity
+
+A. Add the **SFProText-Bold.ttf** font to the **Font** slot.
+
+B. Change the **Text** field to **3**.
+
+C. Update the **Font Size** and Line **Height**.
+
+D. Change the **Color** to **FAF5CD**, the **Outline Color** to **3C5511FF** and the **Outline Thickness** to **1**.
+
+<figure><img src="../../.gitbook/assets/image (544).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the countdown script
+
+A. Add the **CountDown.mjs** script to the **CountDown** entity.
+
+<figure><img src="../../.gitbook/assets/image (545).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Disable the countdown entity
+
+<figure><img src="../../.gitbook/assets/image (547).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+
+
+## Setup Scoreboard UI
+
+
+
+{% stepper %}
+{% step %}
+### Add the Scoreboard.mjs script to the project
+
+A. Drag the **Scoreboard.mjs** script to the **Assets** window.
+
+B. Select the **Scoreboard.mjs** script and click the **Parse** button.
+
+<figure><img src="../../.gitbook/assets/image (548).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the scoreboard texture to the project
+
+A. Drag the **ScoreboardBg.png** texture to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (549).png" alt="" width="320"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the scoreboard
+
+A. Add an **Image Element** under the **2D Screen** entity called **Scoreboard**.
+
+B. Change **Preset** to **Top Anchor & Pivot**.
+
+C. Change the **Width** and **Height** to **159** and **44**.
+
+D. Add the **ScoreboardBg.png** texture to the **Texture** slot.
+
+E. Add the **Scoreboard.mjs** script to the **Scoreboard** entity.
+
+<figure><img src="../../.gitbook/assets/image (550).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the font for the CatCount
+
+A. Drag the **SFProText-Regular.ttf** font to the **Assets** window.
+
+<figure><img src="../../.gitbook/assets/image (551).png" alt="" width="321"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the CatCount
+
+A. Create a **Text Element** entity under the **Scoreboard** entity and name it **CatCount**.
+
+B. Change the **Position** to **(44, 0, 0)** for **X, Y** and **Z**.
+
+C. Update the **Preset** to **Left Anchor & Pivot**.
+
+D. Add the **SFProText-Regular.ttf** font to the **Font** slot.
+
+E. Change the **Text** field to **0/9**.
+
+F. Change **Font Size** and **Line Height** to **16**.
+
+G. Change the **Color** to **FAF5CD**.
+
+<figure><img src="../../.gitbook/assets/image (552).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the stopwatch
+
+A. Create a **Group Element** entity under the **Scoreboard** entity and name it **Stopwatch**.
+
+B. Change the **Position** to **(83.567, -1, 0)**.
+
+C. Update the **Preset** to **Left Anchor & Pivot**.
+
+D. Change the **Width** and **Height** to **32** and **20**.
+
+<figure><img src="../../.gitbook/assets/image (553).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the minutes text
+
+A. Create a **Text Element** under the **Stopwatch** entity and name it **Min**.
+
+B. Update the **Preset** to **Left Anchor & Pivot**.
+
+C. Add **SFProText-Bold.ttf** font to the **Font** slot.
+
+D. Change the **Text** field to **00**.
+
+E. Change **Font Size** and **Line Height** to **20**.
+
+F. Change the **Color** to **FAF5CD**.
+
+<figure><img src="../../.gitbook/assets/image (554).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Create the seconds text
+
+A. Create a **Text Element** under the **Stopwatch** entity and name it **Sec**.
+
+B. Update the **Position** to **(35, 0, 0)** for **X, Y** and **Z.**
+
+C. Update the **Preset** to **Left Anchor & Pivot**.
+
+D. Add **SFProText-Bold.ttf** font to the **Font** slot.
+
+E. Change the **Text** field to **00**.
+
+F. Change **Font Size** and **Line Height** to **20**.
+
+G. Change the **Color** to **FAF5CD**.
+
+<figure><img src="../../.gitbook/assets/image (555).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Disable the scoreboard entity
+
+<figure><img src="../../.gitbook/assets/image (556).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
