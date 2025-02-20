@@ -120,7 +120,7 @@ F. Update the **Position, Rotation** and **Scale** in order to match up the coll
 
 ## Setup Spawn Point
 
-The spawn point is already added to the template project, but needs to be configured for a desired Position and Rotation.
+The spawn point is already added to the template project, but needs to be configured for a desired Position and Rotation. The following steps show how it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -140,7 +140,7 @@ D. At this point, the game can be published to VIVERSE for testing, ensuring tha
 
 ## Setup Cat Groups
 
-The cat groups are already added to the template project, but groups can be added or removed as needed.
+The cat groups are already added to the template project, but groups can be added or removed as needed. The following steps show how they were setup and configured.
 
 {% stepper %}
 {% step %}
@@ -172,7 +172,7 @@ B. Update the **Position** and **Rotation** for each hiding spot. Adding a cat m
 
 ## Setup Cat Models
 
-The cat models are already added to the template project, but cat models can be added or removed as needed.
+The cat models are already added to the template project, but cat models can be added or removed as needed. The following steps show how they were setup and configured.
 
 {% stepper %}
 {% step %}
@@ -254,7 +254,7 @@ B. Add the **EntityFadeIn** action with **duration in ms** set to **300**.
 
 ## Setup Catbox
 
-The Catbox is already added to the template project, but needs to be configured for a desired Position, Rotation and Scale.
+The Catbox is already added to the template project, but needs to be configured for a desired Position, Rotation and Scale. The following steps show how it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -312,7 +312,7 @@ B. Disable all the cat collect positions so that the cats are hidden.
 
 ## Setup Random Waypoint Assignment
 
-The random waypoint assignment object is already added to the project and configured. It can be customized if cats or cat groups are added or removed.
+The random waypoint assignment object is already added to the project and configured. It can be customized if cats or cat groups are added or removed. The following steps show how it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -348,9 +348,9 @@ A. Publish the project to **VIVERSE** to test the script. Click the **Reset** bu
 
 
 
-## Setup Instructions Board and Start Button
+## Setup Instructions Board With Start Button
 
-The instructions board and start button object is already added to the project and configured.&#x20;
+The instructions board with start button object is already added to the project and configured. The following steps show how it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -468,7 +468,7 @@ C. Add the **start-btn.mjs** script.
 
 ## Setup Countdown UI
 
-The countdown user interface is already added to the project and configured.&#x20;
+The countdown user interface is already added to the project and configured. The following steps show it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -534,7 +534,7 @@ A. Add the **CountDown.mjs** script to the **CountDown** entity.
 
 ## Setup Scoreboard UI
 
-The scoreboard user interface is already added to the project and configured.&#x20;
+The scoreboard user interface is already added to the project and configured. The following steps show it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -662,7 +662,7 @@ G. Change the **Color** to **FAF5CD**.
 
 ## Setup GameOver UI
 
-
+The game over user interface is already added to the project and configured. The following steps show how it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -858,7 +858,7 @@ B. Change the **Position** to **(23, 0, 0)**.
 
 ## Setup GameManager
 
-
+The GameManager object is already added to the template project and configured. The following steps show it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -884,9 +884,9 @@ B. Add the **game-manager.mjs** script.
 
 
 
-### Setup Quest system
+## Setup Quest system
 
-
+The quest system is already added to the template project and configured, but quest tasks can be modified, added or removed. The following steps show how it was setup and configured.
 
 {% stepper %}
 {% step %}
@@ -938,9 +938,9 @@ B. Change **selected quest** to **Pet Rescue**, change **quest response** to **a
 
 
 
-### Setup animations
+## Setup Animations
 
-
+The animations are already added to the template project and configured. The following steps show how they were setup and configured.
 
 {% stepper %}
 {% step %}
@@ -960,9 +960,9 @@ A. Rename the animation state to **CatAnim**.
 {% endstep %}
 
 {% step %}
-### Add animation to the cat
+### Add animation to the cats
 
-A. Add an **Anim** component to the cat.
+A. Add an **Anim** component to each cat.
 
 B. Add the **Cat Anim State Graph** to the **State Graph** slot.
 
@@ -974,9 +974,9 @@ D. Add the animation file to the **CatAnim** state slot.
 {% endstep %}
 {% endstepper %}
 
-## Setup audio
+## Setup Audio
 
-
+The audio files are already added to the template project and configured, but the project can be customized to play different sounds and music. The following steps show how they were setup and configured.
 
 {% stepper %}
 {% step %}
@@ -996,7 +996,7 @@ B. Add the Sound component and change **Max Distance** to **50**.
 
 C. Rename the **Slot 1** to **cat1**, **cat2**, etc. Add the **cat1.wav**, **cat2.wave**, etc. to the **Asset** slot.
 
-<figure><img src="../../.gitbook/assets/image (583).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (589).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -1050,9 +1050,9 @@ B. Add the EntityPlaySound action, add **celebrate** to **sound name to play** a
 
 
 
-## Setup particle effects
+## Setup Particle Effects
 
-
+The particle effects are already added to the template project and configured. The following steps show how they were setup and configured.
 
 {% stepper %}
 {% step %}
