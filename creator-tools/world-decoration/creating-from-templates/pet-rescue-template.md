@@ -67,8 +67,6 @@
 
 {% step %}
 ### Optional: Cat particle effects are prebuilt.
-
-
 {% endstep %}
 {% endstepper %}
 
@@ -196,6 +194,16 @@ C. Update the **Scale** for the cat model so the size is appropriate for the env
 {% endstep %}
 
 {% step %}
+### Add material
+
+A. Select the first child object each cat.
+
+B. Add the **Cat\_Material** to the **Materials** slot.
+
+<figure><img src="../../.gitbook/assets/image (590).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
 ### Disable the cats
 
 A. Select all the cats in the groups and **disable** them so that they are disabled by default.
@@ -206,11 +214,21 @@ A. Select all the cats in the groups and **disable** them so that they are disab
 {% step %}
 ### Add the cat script to the project
 
-A. Drag the **cat.mjs** script to the Assets window.
+A. Drag the **cat.mjs** script to the **Assets** window.
 
 B. Click the **parse** button.
 
 <figure><img src="../../.gitbook/assets/image (534).png" alt="" width="375"><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the fader script to the project
+
+A. Drag the **fader.mjs** script to the **Assets** window.
+
+B. Click the **parse** button.
+
+<figure><img src="../../.gitbook/assets/image (591).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -222,33 +240,23 @@ B. Add a **Sphere Collider** with **Radius .5** and **Position Offset** **(0, .2
 
 C. Add the **cat.mjs** script.
 
-D. Click the **Edit Viverse Extension** button.
+D. Add the **fader.mjs** script.
 
-<figure><img src="../../.gitbook/assets/image (535).png" alt="" width="375"><figcaption></figcaption></figure>
+E. Click the **Edit Viverse Extension** button.
+
+<figure><img src="../../.gitbook/assets/image (592).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Add The VIVERSE functionality
+### Add the Viverse functionality
 
 A. For each cat, add a **NotificationCenterSubscribeEntityPicking** trigger with **throttle in ms** set to **1600**.
 
 B. Add a **EntityDisable** action with **delay in ms** set to **2000**.
 
-C. Add a **EntityFadeOut** action with **duration in ms** set to **1500**.
-
-D. **Add a EntityEnableById** action with the **pick up specify execution entity** set to the corresponding cat in the cat box. For cat 1, select **cat\_1\_collect**, for cat 2, select **cat\_2\_collect**, etc.
+C. **Add a EntityEnableById** action with the **pick up specify execution entity** set to the corresponding cat in the cat box. For cat 1, select **cat\_1\_collect**, for cat 2, select **cat\_2\_collect**, etc.
 
 <figure><img src="../../.gitbook/assets/image (536).png" alt="" width="375"><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Continue Adding VIVERSE Functionality
-
-A. Add the **PCAppEventSubscribe** trigger with **notification name to subscribe** set to **cat:fadeIn.**
-
-B. Add the **EntityFadeIn** action with **duration in ms** set to **300**.
-
-<figure><img src="../../.gitbook/assets/image (537).png" alt="" width="375"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
