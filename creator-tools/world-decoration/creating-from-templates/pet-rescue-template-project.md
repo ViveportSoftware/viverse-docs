@@ -1,6 +1,14 @@
-# Pet Rescue Template
+---
+description: This document provides a guide for creating Pet Rescue replica project.
+---
+
+# Pet Rescue Template Project
 
 ***
+
+##
+
+<table><thead><tr><th width="305">Project Name</th><th>Download Link</th><th width="303">Version</th></tr></thead><tbody><tr><td>Pet_Rescue_Sample_Scenes_1.0</td><td><a href="https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/Pet_Rescue_Sample_Scenes_1.0_2025_2_21-23_8_44.zip">https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/Pet_Rescue_Sample_Scenes_1.0_2025_2_21-23_8_44.zip</a></td><td><p>Sample Project Version: <strong>1.0</strong> </p><p>PlayCanvas Extension Version: <strong>3.44.1</strong></p></td></tr><tr><td>Pet_Rescue_Template_Project_1.0</td><td><a href="https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/Pet_Rescue_Template_Project_1.0_2025_2_21-23_9_12.zip">https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/Pet_Rescue_Template_Project_1.0_2025_2_21-23_9_12.zip</a></td><td><p>Sample Project Version: <strong>1.0</strong> </p><p>PlayCanvas Extension Version: <strong>3.44.1</strong></p></td></tr></tbody></table>
 
 ## Using The Pet Rescue Template Checklist
 
