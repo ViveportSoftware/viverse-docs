@@ -12,7 +12,7 @@
 * [Supported Media & Settings](world-decoration/supported-media-and-settings.md)
 * [Overview](world-decoration/overview.md)
 * [Creating From Templates](world-decoration/creating-from-templates.md)
-  * [Pet Rescue Template Project](world-decoration/creating-from-templates/pet-rescue-template-project.md)
+  * [Pet Rescue Template Project](world-decoration/creating-from-templates/pet-rescue-template.md)
 
 ## PlayCanvas SDK
 
