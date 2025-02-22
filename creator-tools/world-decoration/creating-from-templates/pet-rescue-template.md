@@ -1,14 +1,32 @@
 ---
-description: This document provides a guide for creating Pet Rescue replica project.
+description: This document provides a guide for creating a Pet Rescue replica project.
 ---
 
 # Pet Rescue Template Project
 
 ***
 
-##
+The Pet Rescue game is a treasure hunt style game in which the avatar is placed in a 3D environment and has to search for multiple cats. The user navigates the world with their avatar and uses the mouse button to click on the cats to capture them. The game includes a quest system, scoreboard, timer and many other features that can be useful for creating games in VIVERSE. Read up on Pet Rescue [here](https://www.news.viverse.com/post/cat-adventure-a-cozy-virtual-world-to-soothe-your-soul).
+
+
 
 <table><thead><tr><th width="301">Project Name</th><th width="105">Download</th><th width="331">Version</th></tr></thead><tbody><tr><td>Pet_Rescue_Sample_Scenes_1.0</td><td><a href="https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/Pet_Rescue_Sample_Scenes_1.0_2025_2_21-23_8_44.zip">Zip File</a></td><td><p>Sample Project Version: <strong>1.0</strong> </p><p>PlayCanvas Extension Version: <strong>3.44.1</strong></p></td></tr><tr><td>Pet_Rescue_Template_Project_1.0</td><td><a href="https://github.com/ViveportSoftware/viverse-docs/raw/refs/heads/main/samples/Pet_Rescue_Template_Project_1.0_2025_2_21-23_9_12.zip">Zip File</a></td><td><p>Sample Project Version: <strong>1.0</strong> </p><p>PlayCanvas Extension Version: <strong>3.44.1</strong></p></td></tr></tbody></table>
+
+## Pet Rescue Sample Scenes Project
+
+The Pet Rescue Sample Scene Project includes 2 scenes.&#x20;
+
+**Original\_Scene** - The original Pet Rescue which can be found by searching in VIVERSE Worlds. [Link](https://create.viverse.com/MMuLWbE)
+
+**Tutorial\_Scene** - This scene contains a different iteration of the Pet Rescue. This is the scene that was created using the guides provided below.
+
+
+
+## Pet Rescue Template Project
+
+**Template\_Scene -** A stripped down version of Pet Rescue. The 3D environment and colliders have been removed and all the Pet Rescue core game mechanics have been left in the scene to help creators do what they do best, BUT FASTER! Read through the checklist below. The components listed as <mark style="color:red;">Required</mark> will need to be created and/or configured. The components marked as Optional are already added and configured in the project, but only need to be modified if the creator wants to customize.
+
+
 
 ## Using The Pet Rescue Template Checklist
 
