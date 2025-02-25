@@ -16,7 +16,11 @@ The Networked plugin allows local updates to certain properties of an entity's c
 
 ### Transform
 
-By adding the Transform component, an entity's scale, position, and rotation will be networked across clients.
+By adding the Transform component, an entity's position and rotation will be networked across clients.
+
+{% hint style="warning" %}
+At this time, Transform does not network the Scale property of the entity.
+{% endhint %}
 
 ### Anim
 
